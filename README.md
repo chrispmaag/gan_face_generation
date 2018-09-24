@@ -6,7 +6,7 @@ In this project, we will use generative adversarial networks (GANs) to generate 
 
 ## Data
 
-![MNIST](images/mnist.png) .caption[**MNIST**] ![CelebA](images/celeba.png)
+![MNIST](images/mnist.png) ![CelebA](images/celeba.png)
 
 Two datasets were used for this project, [MNIST](http://yann.lecun.com/exdb/mnist/) and [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). MNIST contains black and white images of handwritten digits (single color channel), while CelebA contains more than 200k celebrity images (3 color channels). The MNIST dataset was used to test the neural network before moving on to the more computationally intensive CelebA dataset.
 
@@ -66,6 +66,8 @@ d_loss = d_loss_real + d_loss_fake
 One of the most interesting parts of the GAN is the loss function, which features a discriminator and a generator loss. The discriminator loss is made up of two parts, one for the real inputs and one for the generated inputs. In the above code snippet for the two parts of the discriminator loss, the ground truth labels differ with tf.ones_like and tf.zeros_like.
 
 ## Results
+
+Here are the results before and after training.
 
 ![](images/mnist_before.png) ![](images/mnist_after.png)
 
