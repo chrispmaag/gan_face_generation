@@ -6,7 +6,7 @@ In this project, we will use generative adversarial networks (GANs) to generate 
 
 ## Data
 
-![](images/mnist.png) ![](images/celeba.png)
+![MNIST](images/mnist.png) ![CelebA](images/celeba.png)
 
 Two datasets were used for this project, [MNIST](http://yann.lecun.com/exdb/mnist/) and [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). MNIST contains black and white images of handwritten digits (single color channel), while CelebA contains more than 200k celebrity images (3 color channels). The MNIST dataset was used to test the neural network before moving on to the more computationally intensive CelebA dataset.
 
